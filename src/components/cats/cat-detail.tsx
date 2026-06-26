@@ -145,14 +145,14 @@ export function CatDetail({ catId }: CatDetailProps) {
           <Card className="rounded-xl overflow-hidden border-border/50">
             <div className="aspect-square relative bg-muted">
               <Image
-                src={cat.photoUrl || 'https://placecats.com/millie/400/300'}
+                src={cat.photoUrl || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGKVskN4xdw6WnI1c8N-KtrPOfot5SEvQdpsyTsX58g&s=10'}
                 alt={cat.nickname}
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = 'https://placecats.com/millie/400/300';
+                  target.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGKVskN4xdw6WnI1c8N-KtrPOfot5SEvQdpsyTsX58g&s=10';
                 }}
               />
             </div>

@@ -53,7 +53,7 @@ export function CatCard({ cat, onClick }: CatCardProps) {
     >
       <div className="aspect-[4/3] relative overflow-hidden bg-muted">
         <Image
-          src={cat.photoUrl || 'https://placecats.com/millie/400/300'}
+          src={cat.photoUrl || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGKVskN4xdw6WnI1c8N-KtrPOfot5SEvQdpsyTsX58g&s=10'}
           alt={cat.nickname}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -61,7 +61,7 @@ export function CatCard({ cat, onClick }: CatCardProps) {
           onError={(e) => {
             // Replace with fallback on error
             const target = e.target as HTMLImageElement;
-            target.src = 'https://placecats.com/millie/400/300';
+            target.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGKVskN4xdw6WnI1c8N-KtrPOfot5SEvQdpsyTsX58g&s=10';
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
