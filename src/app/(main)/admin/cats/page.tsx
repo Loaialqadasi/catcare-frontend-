@@ -297,11 +297,11 @@ export default function AdminCatsPage() {
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 w-16 h-16 rounded-xl overflow-hidden bg-muted cursor-pointer" onClick={() => router.push(`/cats/${cat.id}`)}>
                       <img
-                        src={cat.photoUrl || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGKVskN4xdw6WnI1c8N-KtrPOfot5SEvQdpsyTsX58g&s=10'}
+                        src={cat.photoUrl || 'https://placecats.com/millie/400/300'}
                         alt={cat.nickname}
                         className="w-full h-full object-cover"
                         onError={(e) => {
-                          (e.target as HTMLImageElement).src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGGKVskN4xdw6WnI1c8N-KtrPOfot5SEvQdpsyTsX58g&s=10';
+                          (e.target as HTMLImageElement).src = 'https://placecats.com/millie/400/300';
                         }}
                       />
                     </div>
