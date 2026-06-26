@@ -1,0 +1,10 @@
+# MIN-1 Fix: Disallow API and admin routes, allow landing page
+User-agent: *
+Disallow: /api/
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

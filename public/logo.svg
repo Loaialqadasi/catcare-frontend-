@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Cat paw pad (main) -->
+  <ellipse cx="32" cy="40" rx="14" ry="12" fill="#f59e0b"/>
+  <!-- Toe beans -->
+  <circle cx="18" cy="26" r="6" fill="#f59e0b"/>
+  <circle cx="32" cy="22" r="6" fill="#f59e0b"/>
+  <circle cx="46" cy="26" r="6" fill="#f59e0b"/>
+  <!-- Inner highlight on main pad -->
+  <ellipse cx="32" cy="42" rx="8" ry="6" fill="#fbbf24"/>
+  <!-- Inner highlights on toe beans -->
+  <circle cx="18" cy="27" r="3" fill="#fbbf24"/>
+  <circle cx="32" cy="23" r="3" fill="#fbbf24"/>
+  <circle cx="46" cy="27" r="3" fill="#fbbf24"/>
+</svg>
